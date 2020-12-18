@@ -1,5 +1,5 @@
 def boot(T,B,P):
-    a = MovGanart(T,B) :
+    a = MovGanart(T,B) 
     if a :
         return a
     b = MovPerder(T,P) 
@@ -10,12 +10,13 @@ def boot(T,B,P):
         return c
     return 0
 
-def MovGanar(T,B):
-    
+#def MovGanar(T,B):
+   
         
-def MovPerder(T,P):
+#def MovPerder(T,P):
+	
 
-def Mov(T):
-    C = [5,1,2]
-    for c in C:
+#def Mov(T):
+#    C = [5,1,2]
+#    for c in C:
         
