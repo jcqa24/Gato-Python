@@ -18,10 +18,30 @@ def MovGanar(T,B):
     return False
         
 def MovPerder(T,P):
-    pass
-
+    if 0 in P:
+        if 3 in P:
+            T[6] = "O"
+            return 6
+        if 6 in P:
+            T[3] = "O"
+            return 3
+        if 1 in P:
+            T[2] = "O"
+            return 2
+        if 2 in P:
+            T[1] = "O"
+            return 1
+        if 4 in P:
+            T[8] = "O"
+            return 8
+        if 8 in P:
+            T[4] = "O"
+            return 4
+    return False
 def Mov(T):
-    pass
-    #    C = [5,1,2]
-#    for c in C:
+    C = [4,0,2,6,8,1,3,5,7]
+    for c in C:
+        if T[c] != "X" and T[c] != "O":
+            T[c]="O"
+            return c
         
