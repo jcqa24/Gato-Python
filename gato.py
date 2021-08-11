@@ -35,7 +35,7 @@ def main() :
             if l == 1 :
                 basic(T)
             elif l == 2:
-                boot(T)
+                boot(T,B,P)
             else :
                 print("BooT en construccion")
             g = ganador(T,player)
@@ -44,6 +44,8 @@ def main() :
                 imp(T)
                 break
             player = 1
+        print("Tiros boot -> ",B)
+        print("Tiros Jugador -> ",P)
         turnos += 1
         imp(T)
 
